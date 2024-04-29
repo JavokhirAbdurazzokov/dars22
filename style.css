@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 50px;
+    
+}
+.menu li a {
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: black;
+    font-weight: 700;
+}
+h1{
+    /* margin: 200px 0 30px 50px; */
+    font-size: 50px;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin: 50px 0 0 300px;
+}
+.div2{
+   display: flex;
+   
+}
+.img{
+    margin: 50px 0 0 300px;
+
+}
+p{
+    margin: 10px 10px 10px 55px ;
+    color: #7D7987;
+
+}
+.h12{
+    text-align: center;
+}
+.p2{
+    color: #7D7987;
+
+}
+.h2{
+font-size: 40px;
+padding: 20px;
+
+}
+.div4{
+   justify-content: space-around;
+   flex-wrap: wrap;
+   display: flex;
+   gap: 20px;
+  text-align: center;
+
+}
+.img2{
+    height: 100px;
+}
+.div6{
+    width: 30%;
+    
+}
+.button{
+border-radius: 20px;
+text-align: center;
+
+}
+.hl{
+margin: 70px;
+text-align: center;
+}
+.diiv23{
+    width: 30%;
+}
+
+.diiv2{
+display: flex;
+gap: 70px;
+ 
+}
+footer{
+    background-color: darkblue;
+   padding: 2px; 
+   display: flex;
+}
+.divf{
+    margin: 100px;
+    display: flex;
+ 
+}
